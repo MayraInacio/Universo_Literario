@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Literário</title>
+    <link rel="icon" href="./IMG/favicon.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- link para o icone domenu hamburguer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Menu de navegação superior -->
+<div class="topnav">
+  <a href="index.html" class="active"><img src="IMG/favicon (2).ico" alt=""></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="temas.html">Temas</a>
+    <a href="contact.html">Contato</a>
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+  </div>
+  <!-- "Menu Hambúrguer" / "Ícone da barra" para alternar os links de navegação -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- FIM DO MENU -->
+
+<!-- INICIO FORMS LOGIN -->
+<!--Forms-->
+<center>
+    <div class="wrapper">
+      <div class="card-switch">
+          <label class="switch">
+             <input class="toggle" type="checkbox">
+             <span class="slider"></span>
+             <span class="card-side"></span>
+             <div class="flip-card__inner">
+                <div class="flip-card__front">
+                   <div class="title">Login</div>
+                   <form action="" class="flip-card__form">
+                      <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                      <input type="password" placeholder="Senha" name="password" class="flip-card__input">
+                      <button class="flip-card__btn">Let`s go!</button>
+                   </form>
+                </div>
+                <div class="flip-card__back">
+                   <div class="title">Cadstre-se</div>
+                   <form action="" class="flip-card__form">
+                      <input type="name" placeholder="Nome" class="flip-card__input">
+                      <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                      <input type="password" placeholder="Senha" name="password" class="flip-card__input">
+                      <button class="flip-card__btn">Confirmar!</button>
+                   </form>
+                </div>
+             </div>
+          </label>
+      </div>   
+    </div>
+    </center>
+    <!-- FIM FORMS LOGIN -->
+    
+
+
+<!--Inicio do Footer-->
+    
+<div class="footer-arrow">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+  </svg>
+</div>
+
+<footer class="main_footer container">
+  
+  <div class="content">
+      
+      <div class="colfooter">
+          
+          <h4 class="titleFooter"> Menu</h4>
+          
+          <ul>
+          
+            <li><a href="Index.html" title="Página Inícial">Página Inícial</a></li>
+            <li><a href="Sobre.html" title="Sobre ">Sobre a Empresa</a></li>
+            <li><a href="Serviços.html" title="Serviços">Serviços</a></li>
+            <li><a href="Contato.html" title="Fale Conosco">Fale Conosco</a></li>
+          
+          </ul>
+      
+      </div><!--Coluna Footer 1-->        
+      
+      <div class="colfooter">
+         
+         <h4 class="titleFooter">Contato</h4>
+         <p><i class="icon icon-mail"></i> contato@CodeMaster.com.br</p>
+         <p><i class="icon icon-phone"></i> 19 90000-0000</p>
+         <p><i class="icon icon-whatsapp"></i> 19 90000-0000</p>
+      
+      </div><!--Coluna Footer 2-->
+      
+      <div class="colfooter">
+         
+          <h4 class="titleFooter"> Redes Sociais</h4>
+          
+          <a href="#" class="redesocial"><span> <i class="icon icon-facebook"></i>CodeMaster</span></a>            
+          <a href="#" class="redesocial"><span> <i class="icon icon-instagram"></i>blog.codemaster</span></a>            
+          <a href="#" class="redesocial"><span> <i class="icon icon-twitter"></i>CodeMaster</span></a>            
+          <a href="#" class="redesocial"><span> <i class="icon icon-pinterest"></i>CodeMaster</span></a>  
+      
+      </form>
+      
+      </div><!--Coluna Footer 3-->
+      
+      <div class="clear"></div>
+  
+  </div><!--Contant-->
+  
+  <div class="main_footer_copy">
+      
+      <p class="m-b-footer"> Code Master - 2023, todos os direitos reservados.</p> 
+      <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="Loop Nerd">Ana Claudia das Neves Silva</a></p>
+  </div>
+
+
+</footer>
+<!--Fecha Footer-->
+</body>
+
+<script>
+
+  /* Alternar entre exibir e ocultar os links do menu de navegação quando o usuário clicar no ícone do menu/barra de hambúrguer */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+</html>
